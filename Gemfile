@@ -23,6 +23,7 @@ gem 'turbolinks', '~> 5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'simple_form', github: 'heartcombo/simple_form'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.16.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -56,4 +57,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'net-smtp'
+gem 'net-smtp', require: false
